@@ -178,7 +178,6 @@ fieldset[disabled] .btn-xl.active {
 
     font-family: 'Allerta Stencil', sans-serif;
     color: white;
-    display: none;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -247,7 +246,7 @@ fieldset[disabled] .btn-xl.active {
  /*       -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;*/
-        display: none;
+        /*display: none;*/
     }
 
     .navbar-default .navbar-nav>.active>a {
@@ -267,10 +266,9 @@ fieldset[disabled] .btn-xl.active {
 #rj{
     margin-top: 80px;
     width: 700px;
-    display: none;
 }
 
-#nB2{
+/*#nB2{
     display: none;
 
 }
@@ -287,7 +285,7 @@ fieldset[disabled] .btn-xl.active {
 
 #nB5{
     display: none;
-}
+}*/
 header {
     text-align: center;
     color: #fff;

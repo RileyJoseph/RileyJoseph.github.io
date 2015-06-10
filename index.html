@@ -11,6 +11,7 @@
 
     <title>Riley Joseph</title>
 
+
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -48,7 +49,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" id="myName" href="#page-top">Riley Joseph</a>
+                <a class="navbar-brand page-scroll" data-sr="enter top, over 1s" id="myName" href="#page-top">Riley Joseph</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -58,13 +59,13 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a id="nB3" class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a id="nB3" data-sr="enter top, over 2s" class="page-scroll" href="#portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a id="nB4" class="page-scroll" href="#services">About Me</a>
+                        <a id="nB4" data-sr="enter top, over 3s"class="page-scroll" href="#services">About Me</a>
                     </li>
                     <li>
-                        <a id="nB5" class="page-scroll" href="#contact">Contact</a>
+                        <a id="nB5" data-sr="enter top, over 4s"class="page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -76,7 +77,7 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <img id="rj" src="img/logo_brand_sm.png">
+                <img data-sr='enter top, over 2s' id="rj" src="img/logo_brand_sm.png">
 
                 <!-- <div class="intro-lead-in">Welcome.</div> -->
                 <!-- <div class="intro-heading">Please Come In.</div> -->
@@ -602,6 +603,11 @@
         </div>
     </div>
 
+
+
+    <script src='js/scrollReveal.min.js'></script>
+
+    <script>window.sr = new scrollReveal();</script>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
     <script src="js/jq.js"></script>
