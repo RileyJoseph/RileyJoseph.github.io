@@ -228,7 +228,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #e31616;
+    background-color: #222;
 }
 
 @media(min-width:768px) {
@@ -268,24 +268,6 @@ fieldset[disabled] .btn-xl.active {
     width: 700px;
 }
 
-/*#nB2{
-    display: none;
-
-}
-
-#nB3{
-    display: none;
-
-}
-
-#nB4{
-    display: none;
-
-}
-
-#nB5{
-    display: none;
-}*/
 header {
     text-align: center;
     color: #fff;
