@@ -503,6 +503,13 @@ section h3.section-subheading {
     z-index: 2;
 }
 
+@media(min-width:700px) {
+
+    #rj{
+        max-width: 80%;
+    }
+}
+
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
