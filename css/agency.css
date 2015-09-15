@@ -744,10 +744,11 @@ aside.clients img {
 .btn-email{
     background-color: rgba(255,255,255,.8);
     height: 50px;
-    width: 800px;
+    width: 80%;
     border-color: white;
     color: black;
-    font-size: 26px;
+    font-size: 2em;
+    overflow: auto;
 }
 
 .btn-contact{
@@ -766,9 +767,13 @@ aside.clients img {
 section#contact {
     background-color: #222;
     background-image: url(../img/meeting.jpg);
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-position: top center;
+    background-repeat: none;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 section#contact .section-heading {
