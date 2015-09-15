@@ -312,6 +312,7 @@ header .intro-text .intro-heading {
         padding-bottom: 220px;
     }
 
+
     header .intro-text .intro-lead-in {
         /*padding-top: 200px;*/
         padding-top: 40px;
@@ -507,6 +508,9 @@ section h3.section-subheading {
         margin: 0 0 30px;
     }
 }
+    #rj{
+        max-width: 70%;
+    }
 
 .timeline {
     position: relative;
@@ -659,6 +663,11 @@ section h3.section-subheading {
 }
 
 @media(min-width:992px) {
+
+    #rj{
+        max-width: 65%;
+    }
+
     .timeline>li {
         min-height: 150px;
     }
