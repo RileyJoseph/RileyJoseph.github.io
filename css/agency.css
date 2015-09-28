@@ -350,6 +350,13 @@ section h2.section-heading {
     font-size: 48px;
     font-family: 'Allerta Stencil', sans-serif;
 }
+section h2.section-heading2 {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-size: 48px;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
 
 section h3.section-subheading {
     margin-bottom: 15px;
@@ -421,6 +428,46 @@ section h3.section-subheading {
 #PenArcadeImg{
     height: 250px;
     width: 550px;
+}
+
+#tallowsImg{
+    border: 3px solid black;
+    height: 250px;
+    width: 550px;
+}
+
+#breadAndButterImg{
+    border: 3px solid black;
+    height: 250px;
+    width: 550px;
+}
+
+#breadAndButterDiv{
+          -webkit-transition: all 1s ease;
+     -moz-transition: all 4s ease;
+       -o-transition: all 4s ease;
+      -ms-transition: all 4s ease;
+          transition: all 4s ease;
+}
+#breadAndButterDiv:hover{
+    -webkit-filter: blur(5px);
+}
+
+#breadAndButterDescription{
+    position: absolute;
+    top: 60px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 4em;
+}
+
+#breadAndButterDiv:hover #breadAndButterDescription{
+    visibility: visible;
+    opacity: 1;
 }
 
 .builtWith{
