@@ -261,11 +261,32 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+
+    #mediaSwitch{
+        visibility: hidden;
+    }
+    #mediaSwitch2{
+        visibility: hidden;
+        margin-bottom: -300px;
+    }
+
 }
 
 #rj{
     margin-top: 80px;
     max-width: 65%;
+}
+
+@media only screen and (max-width: 768px) {
+    #mediaSwitch{
+            visibility: hidden;
+        }
+    #profPic{
+        margin-top: -350px;
+    }
+    #mediaSwitch2{
+        visibility: visible;
+    }
 }
 
 header {
@@ -710,6 +731,10 @@ section h3.section-subheading {
 }
 
 @media(min-width:992px) {
+
+    #mediaSwitch{
+        visibility: visible;
+    }
 
     #rj{
         max-width: 65%;
