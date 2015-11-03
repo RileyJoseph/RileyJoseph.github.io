@@ -453,14 +453,18 @@ section h3.section-subheading {
 
 #tallowsImg{
     border: 3px solid black;
-    height: 250px;
-    width: 550px;
+    /*height: 250px;*/
+    /*width: 550px;*/
+}
+
+#costelloImg{
+    border: 3px solid black;
 }
 
 #breadAndButterImg{
     border: 3px solid black;
-    height: 250px;
-    width: 550px;
+    /*height: 100%;*/
+    /*width: 550px;*/
 }
 
 #breadAndButterDiv{
@@ -483,7 +487,7 @@ section h3.section-subheading {
     color: white;
     visibility: hidden;
     opacity: 0;
-    font-size: 4em;
+    font-size: 2em;
 }
 
 #breadAndButterDiv:hover #breadAndButterDescription{
